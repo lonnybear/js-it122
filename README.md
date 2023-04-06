@@ -1,1 +1,1 @@
-# js-it122
+My name is Lonny and this is is my GitHub Repo for IT122, to showcase all my classwork.
