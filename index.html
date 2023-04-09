@@ -4,27 +4,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>IT122 - Lonny</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Lonny Le - IT122</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
+  <link href="css/nav.css" rel="stylesheet">
 </head>
 
 <body>
-  <h2>IT122 - Lonny</h2>
-
-  <p id="introduction"></p>
+    <header>
+      <h1 class="page-header">Lonny Le - IT122</h1>
+      <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="https://github.com/lonnybear" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/lonny-l-ba8527241/" target="_blank">LinkedIn</a>
+      </nav>
+    </header>
     
-  <p>Below are my listed assignments!</p>
-  <ul><a href="week1/week1.html">Assignment 1</a></ul>
-  
-  
+    <main class="wrapper">
+      <picture class="profile">
+        <source media="(min-width: 501px)" srcset="images/IMG_7333.jpeg">
+        <source media="(min-width: 501px)" srcset="images/IMG_7333.jpeg">
+        <img src="images/IMG_7333.jpeg" width="700" 
+        height="500" alt="that's me">
+      </picture>
+      <h4 class="subheader">About Myself</h4>
+        <p id="introduction"></p>
+        <p>I used to be a business major, turned into comp sci. My interests are in computers, playing games, and sports. I would love to be a fullstack developer, but currently I am only experienced in front-end development, and currently learning much more on the backend.</p>
+        <p>A fun fact about myself is that I love to powerlift!</p>
+          
+        <p>Below are my listed assignments!</p>
+          <ul>
+             <a href="week1/week1.html">Assignment 1</a>
+           </ul>
+    
+  </main>
   <script src="script.js"></script>
-
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
 </body>
 
 </html>

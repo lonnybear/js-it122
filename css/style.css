@@ -1,0 +1,89 @@
+/*main*/
+html {
+    background-color: #eae7dc;
+    font-family: 'Courier Prime';
+    font-size: 0.95em;
+    line-height: 1.5em;
+}
+
+::selection {
+    color: #000; 
+    background: #eae7dc;
+}
+
+body{
+   margin:0;
+}
+
+h1 {
+    font-weight: normal;
+    margin: auto;
+    background: #eae7dc;
+    line-height: 2.5em;
+}
+
+h1.page-header {
+    font-family: 'Spectral';
+}
+
+
+main.wrapper {
+    background-color: #eae7dc;
+    overflow: auto;
+}
+img {
+    border-radius: 25px;
+    margin: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+p {
+    margin: 1em;
+}
+
+h2,h3 {
+    font-weight: normal;
+    margin-left: 1em;
+    line-height: 1em;
+}
+
+a {
+    color:#000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+    background-color: #eae7dc;
+    text-decoration: none;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 1em;
+}
+
+/*desktop*/
+@media all and (min-width:1200px) {
+    .topnav {
+        width: 80%;
+    }
+}
+
+/*tablet*/
+@media all and (min-width:501px) and (max-width:1199px) {
+    .topnav {
+        width: 90%;
+    }
+}
+
+/*phone*/
+@media all and (max-width:500px) {
+    .topnav {
+        width: 100%;
+    }
+}
