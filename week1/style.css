@@ -1,20 +1,21 @@
-html, body{
-    background-color: blanchedalmond;
-}
-img{
-    border-style:groove;
-    max-width: 450px;
+body{
+    background-color: antiquewhite;
 }
 
+img{
+    border-style: groove;
+    min-width: 300px;
+}
 body{
     display: flex;
     justify-content: center;
 }
-
-h1 {
+h2{
     text-align: center;
 }
-
+p{
+    text-align: center;
+}
 input, button{
     border: none;
     outline: none;
@@ -26,6 +27,13 @@ input, button{
     padding:0 18px;
 }
 
+
+
+
+
+
+
+
 footer{
     position: absolute;
     text-align: center;
@@ -34,8 +42,4 @@ footer{
     left: 0;
     width: 100%;
     padding: 10px 0;
-}
-
-#output{
-    text-align: center;
 }
